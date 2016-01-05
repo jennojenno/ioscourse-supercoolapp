@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CBF4511C3C036C004C84C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBF4501C3C036C004C84C1 /* AppDelegate.swift */; };
+		04CBF4531C3C036C004C84C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBF4521C3C036C004C84C1 /* ViewController.swift */; };
+		04CBF4561C3C036C004C84C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBF4541C3C036C004C84C1 /* Main.storyboard */; };
+		04CBF4581C3C036C004C84C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CBF4571C3C036C004C84C1 /* Assets.xcassets */; };
+		04CBF45B1C3C036C004C84C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBF4591C3C036C004C84C1 /* LaunchScreen.storyboard */; };
+		04CBF4661C3C036C004C84C1 /* Lec15___HideMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBF4651C3C036C004C84C1 /* Lec15___HideMeTests.swift */; };
+		04CBF4711C3C036C004C84C1 /* Lec15___HideMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBF4701C3C036C004C84C1 /* Lec15___HideMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CBF4621C3C036C004C84C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CBF4451C3C036C004C84C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CBF44C1C3C036C004C84C1;
+			remoteInfo = "Lec15 - HideMe";
+		};
+		04CBF46D1C3C036C004C84C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CBF4451C3C036C004C84C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CBF44C1C3C036C004C84C1;
+			remoteInfo = "Lec15 - HideMe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CBF44D1C3C036C004C84C1 /* Lec15 - HideMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lec15 - HideMe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CBF4501C3C036C004C84C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CBF4521C3C036C004C84C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CBF4551C3C036C004C84C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CBF4571C3C036C004C84C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CBF45A1C3C036C004C84C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CBF45C1C3C036C004C84C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CBF4611C3C036C004C84C1 /* Lec15 - HideMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lec15 - HideMeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CBF4651C3C036C004C84C1 /* Lec15___HideMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lec15___HideMeTests.swift"; sourceTree = "<group>"; };
+		04CBF4671C3C036C004C84C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CBF46C1C3C036C004C84C1 /* Lec15 - HideMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lec15 - HideMeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CBF4701C3C036C004C84C1 /* Lec15___HideMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lec15___HideMeUITests.swift"; sourceTree = "<group>"; };
+		04CBF4721C3C036C004C84C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CBF44A1C3C036C004C84C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CBF45E1C3C036C004C84C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CBF4691C3C036C004C84C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CBF4441C3C036C004C84C1 = {
+			isa = PBXGroup;
+			children = (
+				04CBF44F1C3C036C004C84C1 /* Lec15 - HideMe */,
+				04CBF4641C3C036C004C84C1 /* Lec15 - HideMeTests */,
+				04CBF46F1C3C036C004C84C1 /* Lec15 - HideMeUITests */,
+				04CBF44E1C3C036C004C84C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CBF44E1C3C036C004C84C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CBF44D1C3C036C004C84C1 /* Lec15 - HideMe.app */,
+				04CBF4611C3C036C004C84C1 /* Lec15 - HideMeTests.xctest */,
+				04CBF46C1C3C036C004C84C1 /* Lec15 - HideMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CBF44F1C3C036C004C84C1 /* Lec15 - HideMe */ = {
+			isa = PBXGroup;
+			children = (
+				04CBF4501C3C036C004C84C1 /* AppDelegate.swift */,
+				04CBF4521C3C036C004C84C1 /* ViewController.swift */,
+				04CBF4541C3C036C004C84C1 /* Main.storyboard */,
+				04CBF4571C3C036C004C84C1 /* Assets.xcassets */,
+				04CBF4591C3C036C004C84C1 /* LaunchScreen.storyboard */,
+				04CBF45C1C3C036C004C84C1 /* Info.plist */,
+			);
+			path = "Lec15 - HideMe";
+			sourceTree = "<group>";
+		};
+		04CBF4641C3C036C004C84C1 /* Lec15 - HideMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CBF4651C3C036C004C84C1 /* Lec15___HideMeTests.swift */,
+				04CBF4671C3C036C004C84C1 /* Info.plist */,
+			);
+			path = "Lec15 - HideMeTests";
+			sourceTree = "<group>";
+		};
+		04CBF46F1C3C036C004C84C1 /* Lec15 - HideMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CBF4701C3C036C004C84C1 /* Lec15___HideMeUITests.swift */,
+				04CBF4721C3C036C004C84C1 /* Info.plist */,
+			);
+			path = "Lec15 - HideMeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CBF44C1C3C036C004C84C1 /* Lec15 - HideMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CBF4751C3C036C004C84C1 /* Build configuration list for PBXNativeTarget "Lec15 - HideMe" */;
+			buildPhases = (
+				04CBF4491C3C036C004C84C1 /* Sources */,
+				04CBF44A1C3C036C004C84C1 /* Frameworks */,
+				04CBF44B1C3C036C004C84C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lec15 - HideMe";
+			productName = "Lec15 - HideMe";
+			productReference = 04CBF44D1C3C036C004C84C1 /* Lec15 - HideMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CBF4601C3C036C004C84C1 /* Lec15 - HideMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CBF4781C3C036C004C84C1 /* Build configuration list for PBXNativeTarget "Lec15 - HideMeTests" */;
+			buildPhases = (
+				04CBF45D1C3C036C004C84C1 /* Sources */,
+				04CBF45E1C3C036C004C84C1 /* Frameworks */,
+				04CBF45F1C3C036C004C84C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CBF4631C3C036C004C84C1 /* PBXTargetDependency */,
+			);
+			name = "Lec15 - HideMeTests";
+			productName = "Lec15 - HideMeTests";
+			productReference = 04CBF4611C3C036C004C84C1 /* Lec15 - HideMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CBF46B1C3C036C004C84C1 /* Lec15 - HideMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CBF47B1C3C036C004C84C1 /* Build configuration list for PBXNativeTarget "Lec15 - HideMeUITests" */;
+			buildPhases = (
+				04CBF4681C3C036C004C84C1 /* Sources */,
+				04CBF4691C3C036C004C84C1 /* Frameworks */,
+				04CBF46A1C3C036C004C84C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CBF46E1C3C036C004C84C1 /* PBXTargetDependency */,
+			);
+			name = "Lec15 - HideMeUITests";
+			productName = "Lec15 - HideMeUITests";
+			productReference = 04CBF46C1C3C036C004C84C1 /* Lec15 - HideMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CBF4451C3C036C004C84C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Amaya;
+				TargetAttributes = {
+					04CBF44C1C3C036C004C84C1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04CBF4601C3C036C004C84C1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04CBF44C1C3C036C004C84C1;
+					};
+					04CBF46B1C3C036C004C84C1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04CBF44C1C3C036C004C84C1;
+					};
+				};
+			};
+			buildConfigurationList = 04CBF4481C3C036C004C84C1 /* Build configuration list for PBXProject "Lec15 - HideMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CBF4441C3C036C004C84C1;
+			productRefGroup = 04CBF44E1C3C036C004C84C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CBF44C1C3C036C004C84C1 /* Lec15 - HideMe */,
+				04CBF4601C3C036C004C84C1 /* Lec15 - HideMeTests */,
+				04CBF46B1C3C036C004C84C1 /* Lec15 - HideMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CBF44B1C3C036C004C84C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CBF45B1C3C036C004C84C1 /* LaunchScreen.storyboard in Resources */,
+				04CBF4581C3C036C004C84C1 /* Assets.xcassets in Resources */,
+				04CBF4561C3C036C004C84C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CBF45F1C3C036C004C84C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CBF46A1C3C036C004C84C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CBF4491C3C036C004C84C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CBF4531C3C036C004C84C1 /* ViewController.swift in Sources */,
+				04CBF4511C3C036C004C84C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CBF45D1C3C036C004C84C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CBF4661C3C036C004C84C1 /* Lec15___HideMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CBF4681C3C036C004C84C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CBF4711C3C036C004C84C1 /* Lec15___HideMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CBF4631C3C036C004C84C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CBF44C1C3C036C004C84C1 /* Lec15 - HideMe */;
+			targetProxy = 04CBF4621C3C036C004C84C1 /* PBXContainerItemProxy */;
+		};
+		04CBF46E1C3C036C004C84C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CBF44C1C3C036C004C84C1 /* Lec15 - HideMe */;
+			targetProxy = 04CBF46D1C3C036C004C84C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CBF4541C3C036C004C84C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CBF4551C3C036C004C84C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CBF4591C3C036C004C84C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CBF45A1C3C036C004C84C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CBF4731C3C036C004C84C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CBF4741C3C036C004C84C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CBF4761C3C036C004C84C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lec15 - HideMe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amaya.dev.Lec15---HideMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04CBF4771C3C036C004C84C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lec15 - HideMe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amaya.dev.Lec15---HideMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04CBF4791C3C036C004C84C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lec15 - HideMeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amaya.dev.Lec15---HideMeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lec15 - HideMe.app/Lec15 - HideMe";
+			};
+			name = Debug;
+		};
+		04CBF47A1C3C036C004C84C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lec15 - HideMeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amaya.dev.Lec15---HideMeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lec15 - HideMe.app/Lec15 - HideMe";
+			};
+			name = Release;
+		};
+		04CBF47C1C3C036C004C84C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lec15 - HideMeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amaya.dev.Lec15---HideMeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lec15 - HideMe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04CBF47D1C3C036C004C84C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lec15 - HideMeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amaya.dev.Lec15---HideMeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lec15 - HideMe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CBF4481C3C036C004C84C1 /* Build configuration list for PBXProject "Lec15 - HideMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CBF4731C3C036C004C84C1 /* Debug */,
+				04CBF4741C3C036C004C84C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CBF4751C3C036C004C84C1 /* Build configuration list for PBXNativeTarget "Lec15 - HideMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CBF4761C3C036C004C84C1 /* Debug */,
+				04CBF4771C3C036C004C84C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04CBF4781C3C036C004C84C1 /* Build configuration list for PBXNativeTarget "Lec15 - HideMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CBF4791C3C036C004C84C1 /* Debug */,
+				04CBF47A1C3C036C004C84C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04CBF47B1C3C036C004C84C1 /* Build configuration list for PBXNativeTarget "Lec15 - HideMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CBF47C1C3C036C004C84C1 /* Debug */,
+				04CBF47D1C3C036C004C84C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CBF4451C3C036C004C84C1 /* Project object */;
+}
